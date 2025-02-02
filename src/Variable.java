@@ -16,5 +16,13 @@ public class Variable {
     System.out.println("В числе " + numb + " лет -> " + years);
     System.out.println("В числе " + numb + " месяцев-> " + months);
     System.out.println("В числе " + numb + " дней -> " + days);
+
+    System.out.println("------------------------------- Задача 3 ----------------------------");
+    double radius = 10.8;
+    double pi = 3.14;
+//    float radius = 10.8f;
+//    float pi = 3.14f;
+    double area = pi * radius * radius;
+    System.out.println("Площать круга = " + area);
   }
 }
